@@ -1,0 +1,12 @@
+import math
+
+a=int(input('请输入：'))
+b=math.fabs(a)
+print(a,b)
+"""
+若代码为
+a=input('请输入：')
+b=math.fabs(a)或者b=abs(a)
+则都会报错TypeError: must be real number, not str
+所以必须在input声明数据类型
+"""
